@@ -4,7 +4,9 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  router: {
+    base: '/nuxt_demo_0605.2/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt_demo_0605',
@@ -20,11 +22,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script:[
-      {src : "/js/jquery.min.js" , body: true},      
-      {src : "/js/browser.min.js", body: true},      
-      {src : "/js/breakpoints.min.js", body: true},      
-      {src : "/js/util.js", body: true} ,     
-      {src : "/js/main.js", body: true}
+      {src : "/nuxt_demo_0605.2/js/jquery.min.js" , body: true},      
+      {src : "/nuxt_demo_0605.2/js/browser.min.js", body: true},      
+      {src : "/nuxt_demo_0605.2/js/breakpoints.min.js", body: true},      
+      {src : "/nuxt_demo_0605.2/js/util.js", body: true} ,     
+      {src : "/nuxt_demo_0605.2/js/main.js", body: true}
     ]
   },
 
