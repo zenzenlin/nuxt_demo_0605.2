@@ -52,3 +52,12 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/wrapper';
+
+	.page-enter-active,
+	.page-leave-active {
+		transition: opacity .27s;
+	}
+	.page-enter,
+	.page-leave-active {
+		opacity: 0;
+	}
